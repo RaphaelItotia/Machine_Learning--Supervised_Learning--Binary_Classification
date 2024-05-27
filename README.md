@@ -53,7 +53,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
 
-# test the model with new student data
+# test the model with another student's data
 another_student_df = pd.DataFrame({
     'hours_studied': [5],
     'previous_grade': [65],
@@ -64,8 +64,8 @@ another_student_df = pd.DataFrame({
     'class_participation': [1]
 })
 
-# Make a prediction for the new student using the trained model
-prediction = model.predict(new_student_df)
+# Make a prediction for another student using the trained model
+prediction = model.predict(another_student_df)
 
 # Convert the prediction (0 or 1) to a meaningful label
 result = "Pass" if prediction[0] == 1 else "Fail"
@@ -73,3 +73,6 @@ result = "Pass" if prediction[0] == 1 else "Fail"
 print("Prediction for the new student:", result)
 
 ```
+Personally, I shall run the code in **Jupyter Notebook**.
+![Output](images/jupyter.png)
+![Output](images/notebook.png)
