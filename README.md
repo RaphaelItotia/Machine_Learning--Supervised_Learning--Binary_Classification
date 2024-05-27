@@ -6,6 +6,9 @@ Machine Learning (ML) is a type of Artificial Intelligence (AI) that allows soft
 
   Binary classification is a task where the model is only trained to predict one of two categories, for example, a binary classification model could be used to predict whether a student will pass or fail.
 
+ Illustration using the RandomForestClassifier algorithm;
+  ![diagram](images/Student.gif)
+
 ## Lets dive into action
   I used the RandomForestClassifier algorithm to build the classification model. It trained on the features such as 'hours_studied', 'previous_grade', 'attendance_percentage', 'test_score', 'homework_score', 'extracurricular_activities', and 'class_participation' to predict whether a student will pass or fail. The model was then evaluated using accuracy.
 
