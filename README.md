@@ -80,7 +80,7 @@ result = "Pass" if prediction[0] == 1 else "Fail"
 print("Prediction for the new student:", result)
 
 ```
-Personally, I shall run the code in **Jupyter Notebook**.
+Personally, I ran the code in **Jupyter Notebook**.
 ![Output](images/jupyter.png)
 ![Output](images/notebook.png)
 
