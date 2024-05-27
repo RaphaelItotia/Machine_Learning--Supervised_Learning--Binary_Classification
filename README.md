@@ -67,6 +67,8 @@ another_student_df = pd.DataFrame({
 # Make a prediction for another student using the trained model
 prediction = model.predict(another_student_df)
 
+print(prediction)
+
 # Convert the prediction (0 or 1) to a meaningful label
 result = "Pass" if prediction[0] == 1 else "Fail"
 
